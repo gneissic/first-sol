@@ -1,14 +1,15 @@
 pragma solidity ^0.4.17;
+//rival space find loop shrimp exile member yard safe bulb public glass
 // linter warnings (red underline) about pragma version can igonored!
 
-contract Inbox{
+contract Inbox {
     string public message;
     
-      function Inbox(string initialMessage) public {
+    function Inbox(string initialMessage) public {
         message = initialMessage;
-      }
-    function setmessage(string newMessage) public{
+    }
+    
+    function setMessage(string newMessage) public {
         message = newMessage;
     }
 }
-
